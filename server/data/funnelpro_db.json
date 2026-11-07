@@ -1,0 +1,1475 @@
+{
+  "users": [
+    {
+      "_id": "993f7c82-be35-495e-a5f4-8c3df9e57d83",
+      "name": "Alex Vance",
+      "email": "demo@funnelpro.io",
+      "password": "$2a$10$iIexP.hswAQgj3XHJ8Xx1.ULmfcGqX80bwHNogz2RoquDSDEk1DFS",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "role": "admin",
+      "businessName": "Vance Growth Ventures",
+      "bio": "7-Figure SaaS Architect & Direct-Response Funnel Strategist",
+      "emailVerified": true,
+      "settings": {
+        "currency": "USD",
+        "theme": "light",
+        "brandColor": "#6366f1",
+        "notifications": {
+          "email": true,
+          "orders": true,
+          "leads": true
+        }
+      },
+      "createdAt": "2026-11-07T19:50:18.897Z",
+      "updatedAt": "2026-11-07T19:50:18.897Z"
+    },
+    {
+      "_id": "87ef7cdd-2863-4213-8c95-723174c97395",
+      "name": "a",
+      "email": "shafqatullah15305@gmail.com",
+      "password": "$2a$10$5Buvdj4gmuG/PT.GEVIPVOt.NQ8sXkbToDelTPjrt1sGE9/1aWl8q",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "role": "user",
+      "businessName": "a",
+      "bio": "Entrepreneur & Funnel Builder",
+      "emailVerified": true,
+      "settings": {
+        "currency": "USD",
+        "theme": "light",
+        "brandColor": "#6366f1",
+        "notifications": {
+          "email": true,
+          "orders": true,
+          "leads": true
+        }
+      },
+      "createdAt": "2026-11-07T20:02:21.529Z",
+      "updatedAt": "2026-11-07T20:02:21.529Z"
+    }
+  ],
+  "funnels": [
+    {
+      "_id": "fbc29a41-431d-414b-8cf2-f07f5ae33ae6",
+      "name": "SaaS 14-Day Growth Funnel",
+      "description": "Flagship productized acquisition funnel with video landing page, feature highlights, and Stripe checkout.",
+      "slug": "saas-growth-funnel",
+      "status": "published",
+      "category": "saas",
+      "steps": [],
+      "customDomain": "growth.funnelpro.io",
+      "trackingCodes": {
+        "headCode": "",
+        "bodyCode": ""
+      },
+      "stats": {
+        "visitors": 5820,
+        "leads": 1240,
+        "orders": 184,
+        "revenue": 19840,
+        "conversionRate": 3.16
+      },
+      "createdAt": "2026-11-07T19:50:18.908Z",
+      "updatedAt": "2026-11-07T19:50:18.908Z"
+    },
+    {
+      "_id": "98f41eba-144b-42f6-ae99-496ef05ce097",
+      "name": "High-Impact Masterclass Webinar",
+      "description": "Automated on-demand masterclass webinar funnel with live chat simulator.",
+      "slug": "masterclass-webinar",
+      "status": "published",
+      "category": "webinar",
+      "steps": [],
+      "customDomain": "",
+      "trackingCodes": {
+        "headCode": "",
+        "bodyCode": ""
+      },
+      "stats": {
+        "visitors": 3410,
+        "leads": 980,
+        "orders": 48,
+        "revenue": 14200,
+        "conversionRate": 4.8
+      },
+      "createdAt": "2026-11-07T19:50:18.919Z",
+      "updatedAt": "2026-11-07T19:50:18.919Z"
+    }
+  ],
+  "funnelSteps": [
+    {
+      "_id": "5443a374-61ad-4cbd-aca5-5e0887e8a5e6",
+      "funnelId": "fbc29a41-431d-414b-8cf2-f07f5ae33ae6",
+      "name": "Opt-in Page",
+      "stepType": "optin",
+      "slug": "optin",
+      "order": 0,
+      "pageId": "ac7f7eca-022c-421a-8aa2-116a9c3e8bbf",
+      "nextStepId": "7e2b3ff9-7fab-46e2-b86e-21aa88b56d8e",
+      "upsellStepId": null,
+      "downsellStepId": null,
+      "stats": {
+        "views": 5820,
+        "conversions": 1240,
+        "conversionRate": 21.3
+      },
+      "createdAt": "2026-11-07T19:50:18.910Z",
+      "updatedAt": "2026-11-07T19:50:18.917Z"
+    },
+    {
+      "_id": "7e2b3ff9-7fab-46e2-b86e-21aa88b56d8e",
+      "funnelId": "fbc29a41-431d-414b-8cf2-f07f5ae33ae6",
+      "name": "Order Checkout",
+      "stepType": "checkout",
+      "slug": "checkout",
+      "order": 1,
+      "pageId": "2328e853-923f-4092-ac83-c3d9c1452f8e",
+      "nextStepId": "9bc23800-d792-45af-bc44-14300cffa678",
+      "upsellStepId": null,
+      "downsellStepId": null,
+      "stats": {
+        "views": 1240,
+        "conversions": 184,
+        "conversionRate": 14.8
+      },
+      "createdAt": "2026-11-07T19:50:18.912Z",
+      "updatedAt": "2026-11-07T19:50:18.918Z"
+    },
+    {
+      "_id": "9bc23800-d792-45af-bc44-14300cffa678",
+      "funnelId": "fbc29a41-431d-414b-8cf2-f07f5ae33ae6",
+      "name": "Order Thank You",
+      "stepType": "thankyou",
+      "slug": "thank-you",
+      "order": 2,
+      "pageId": "e676b577-67fa-4162-8318-c60f55326c44",
+      "nextStepId": null,
+      "upsellStepId": null,
+      "downsellStepId": null,
+      "stats": {
+        "views": 184,
+        "conversions": 184,
+        "conversionRate": 100
+      },
+      "createdAt": "2026-11-07T19:50:18.915Z",
+      "updatedAt": "2026-11-07T19:50:18.915Z"
+    }
+  ],
+  "pages": [
+    {
+      "_id": "ac7f7eca-022c-421a-8aa2-116a9c3e8bbf",
+      "funnelId": "fbc29a41-431d-414b-8cf2-f07f5ae33ae6",
+      "funnelStepId": "5443a374-61ad-4cbd-aca5-5e0887e8a5e6",
+      "title": "SaaS Growth — Free Trial Opt-In",
+      "slug": "optin",
+      "sections": [
+        {
+          "id": "d0fc8596-9b0c-4a77-a266-0c689b5891d6",
+          "name": "Hero Section",
+          "styles": {
+            "backgroundColor": "#0f172a",
+            "padding": "70px 24px",
+            "textAlign": "center"
+          },
+          "rows": [
+            {
+              "id": "890f3a83-b2ac-43ba-88c6-e9e73b5e3da0",
+              "columns": [
+                {
+                  "id": "fa0bd22e-5717-4cd5-be63-37fd85810221",
+                  "width": "100%",
+                  "elements": [
+                    {
+                      "id": "cb18d80d-748d-4cba-8df2-914110a448dd",
+                      "type": "badge",
+                      "content": {
+                        "text": "HIGH CONVERTING SALES FUNNEL",
+                        "color": "#818cf8",
+                        "bgColor": "#1e1b4b"
+                      },
+                      "styles": {
+                        "margin": "0 auto 16px auto",
+                        "display": "inline-block"
+                      }
+                    },
+                    {
+                      "id": "f2f3a896-c160-42bb-9e91-b57c67e9d6e3",
+                      "type": "heading",
+                      "content": {
+                        "text": "Turn Cold Traffic Into Loyal Customers On Autopilot",
+                        "level": "h1"
+                      },
+                      "styles": {
+                        "fontSize": "42px",
+                        "fontWeight": "800",
+                        "color": "#ffffff",
+                        "maxWidth": "780px",
+                        "margin": "0 auto 16px auto"
+                      }
+                    },
+                    {
+                      "id": "d79b149f-9f16-4647-9ede-515d8bc655f1",
+                      "type": "paragraph",
+                      "content": {
+                        "text": "Experience the next-generation sales funnel software built for 7-figure creators, agencies, and SaaS founders."
+                      },
+                      "styles": {
+                        "fontSize": "18px",
+                        "color": "#94a3b8",
+                        "maxWidth": "620px",
+                        "margin": "0 auto 30px auto"
+                      }
+                    },
+                    {
+                      "id": "c1e36d4f-40a5-42bc-94e1-1b74aafbbeda",
+                      "type": "form",
+                      "content": {
+                        "buttonText": "Claim Your 14-Day Free Access",
+                        "fields": [
+                          {
+                            "name": "name",
+                            "type": "text",
+                            "placeholder": "Your Name"
+                          },
+                          {
+                            "name": "email",
+                            "type": "email",
+                            "placeholder": "Work Email Address"
+                          }
+                        ]
+                      },
+                      "styles": {
+                        "maxWidth": "440px",
+                        "margin": "0 auto"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "seo": {
+        "title": "",
+        "description": "",
+        "ogImage": "",
+        "keywords": ""
+      },
+      "customCss": "",
+      "status": "published",
+      "publishedUrl": "",
+      "version": 1,
+      "createdAt": "2026-11-07T19:50:18.909Z",
+      "updatedAt": "2026-11-07T19:50:18.911Z"
+    },
+    {
+      "_id": "2328e853-923f-4092-ac83-c3d9c1452f8e",
+      "funnelId": "fbc29a41-431d-414b-8cf2-f07f5ae33ae6",
+      "funnelStepId": "7e2b3ff9-7fab-46e2-b86e-21aa88b56d8e",
+      "title": "SaaS Growth — Secure Checkout",
+      "slug": "checkout",
+      "sections": [
+        {
+          "id": "d6107510-af70-461d-a3bc-8b45c9adec23",
+          "name": "Checkout Hero",
+          "styles": {
+            "backgroundColor": "#f8fafc",
+            "padding": "40px 20px",
+            "textAlign": "center"
+          },
+          "rows": [
+            {
+              "id": "8133e376-15f8-4957-8066-f95cd2ab88ca",
+              "columns": [
+                {
+                  "id": "7883eccf-add7-46a4-9ecb-d93c87f61cf4",
+                  "width": "100%",
+                  "elements": [
+                    {
+                      "id": "a421f33f-76b0-49fa-a315-975de9776c56",
+                      "type": "heading",
+                      "content": {
+                        "text": "Complete Your Order & Instant Activation",
+                        "level": "h1"
+                      },
+                      "styles": {
+                        "fontSize": "32px",
+                        "fontWeight": "800",
+                        "color": "#0f172a"
+                      }
+                    },
+                    {
+                      "id": "e836cf26-0dc4-45c2-aa48-2af814257dc1",
+                      "type": "paragraph",
+                      "content": {
+                        "text": "256-Bit SSL Encrypted Checkout with 30-Day Money Back Guarantee"
+                      },
+                      "styles": {
+                        "fontSize": "15px",
+                        "color": "#64748b",
+                        "marginTop": "8px"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "seo": {
+        "title": "",
+        "description": "",
+        "ogImage": "",
+        "keywords": ""
+      },
+      "customCss": "",
+      "status": "published",
+      "publishedUrl": "",
+      "version": 1,
+      "createdAt": "2026-11-07T19:50:18.912Z",
+      "updatedAt": "2026-11-07T19:50:18.913Z"
+    },
+    {
+      "_id": "e676b577-67fa-4162-8318-c60f55326c44",
+      "funnelId": "fbc29a41-431d-414b-8cf2-f07f5ae33ae6",
+      "funnelStepId": "9bc23800-d792-45af-bc44-14300cffa678",
+      "title": "SaaS Growth — Order Confirmation",
+      "slug": "thank-you",
+      "sections": [
+        {
+          "id": "d090903c-7927-4af0-8554-33eba44abde4",
+          "name": "Success Section",
+          "styles": {
+            "backgroundColor": "#ffffff",
+            "padding": "60px 20px",
+            "textAlign": "center"
+          },
+          "rows": [
+            {
+              "id": "e750b535-113d-4fc7-be54-96a1795d7bbe",
+              "columns": [
+                {
+                  "id": "48ec762c-6877-4d2f-9f84-9685d9fdca47",
+                  "width": "100%",
+                  "elements": [
+                    {
+                      "id": "0547d0f5-971a-4c78-a801-e15aa3ee858d",
+                      "type": "badge",
+                      "content": {
+                        "text": "ORDER CONFIRMED",
+                        "color": "#10b981",
+                        "bgColor": "#ecfdf5"
+                      }
+                    },
+                    {
+                      "id": "5b40d69e-6d13-40d5-bb14-f126da4ac734",
+                      "type": "heading",
+                      "content": {
+                        "text": "Congratulations & Welcome Aboard!",
+                        "level": "h1"
+                      },
+                      "styles": {
+                        "fontSize": "36px",
+                        "fontWeight": "800",
+                        "color": "#0f172a",
+                        "margin": "16px auto"
+                      }
+                    },
+                    {
+                      "id": "45689f2c-e86e-44c3-9975-fc2da44ae6f8",
+                      "type": "paragraph",
+                      "content": {
+                        "text": "Your account is ready. Your download links and credentials have been dispatched."
+                      },
+                      "styles": {
+                        "fontSize": "16px",
+                        "color": "#64748b"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "seo": {
+        "title": "",
+        "description": "",
+        "ogImage": "",
+        "keywords": ""
+      },
+      "customCss": "",
+      "status": "published",
+      "publishedUrl": "",
+      "version": 1,
+      "createdAt": "2026-11-07T19:50:18.914Z",
+      "updatedAt": "2026-11-07T19:50:18.916Z"
+    }
+  ],
+  "products": [
+    {
+      "_id": "39735221-9ee7-450a-b4d7-d172d9840a46",
+      "name": "FunnelPro SaaS Growth Accelerator",
+      "description": "The definitive blueprint and software templates to scale to 10k MRR.",
+      "price": 97,
+      "compareAtPrice": 297,
+      "currency": "USD",
+      "type": "digital",
+      "images": [],
+      "orderBump": {
+        "enabled": true,
+        "headline": "Yes! Add The 50 High-Converting Copywriting Swipes",
+        "description": "Get our battle-tested headline formulas and email follow-up sequence templates.",
+        "price": 27
+      },
+      "upsell": {
+        "enabled": true,
+        "headline": "One-Time Upgrade: VIP 1-on-1 Funnel Audit & Coaching Call",
+        "description": "Get your entire funnel reviewed personally by senior conversion architects.",
+        "price": 197
+      },
+      "digitalFileUrl": "",
+      "inventory": 999,
+      "status": "active",
+      "createdAt": "2026-11-07T19:50:18.900Z",
+      "updatedAt": "2026-11-07T19:50:18.900Z"
+    },
+    {
+      "_id": "ab1eec1c-120f-4965-9026-82f782f39658",
+      "name": "Apex Smart Fitness Tracker V3",
+      "description": "Biometric heart rate, sleep recovery, and GPS tracking smart wearable.",
+      "price": 149,
+      "compareAtPrice": 249,
+      "currency": "USD",
+      "type": "physical",
+      "images": [],
+      "orderBump": {
+        "enabled": true,
+        "headline": "Add Magnetic Milanese Stainless Steel Band",
+        "description": "Upgrade your wristband styling with premium stainless steel for only $19.",
+        "price": 19
+      },
+      "upsell": {
+        "enabled": true,
+        "headline": "2-Year No-Questions-Asked Replacement Protection Warranty",
+        "description": "Zero deductible full accidental damage and water ingress protection.",
+        "price": 39
+      },
+      "digitalFileUrl": "",
+      "inventory": 150,
+      "status": "active",
+      "createdAt": "2026-11-07T19:50:18.900Z",
+      "updatedAt": "2026-11-07T19:50:18.900Z"
+    },
+    {
+      "_id": "540de82f-031b-478c-9979-41acf0be73f2",
+      "name": "High-Ticket Mastermind VIP Cohort",
+      "description": "Quarterly in-person mastermind, weekly private advisory, and direct founder Slack access.",
+      "price": 997,
+      "compareAtPrice": 2497,
+      "currency": "USD",
+      "type": "service",
+      "images": [],
+      "orderBump": {
+        "enabled": false,
+        "headline": "",
+        "description": "",
+        "price": 0
+      },
+      "upsell": {
+        "enabled": true,
+        "headline": "Private 1-on-1 Dinner & Growth Strategy Session",
+        "description": "Join the private executive dinner session on evening before mastermind.",
+        "price": 497
+      },
+      "digitalFileUrl": "",
+      "inventory": 20,
+      "status": "active",
+      "createdAt": "2026-11-07T19:50:18.901Z",
+      "updatedAt": "2026-11-07T19:50:18.901Z"
+    }
+  ],
+  "orders": [
+    {
+      "_id": "49369b95-19c9-4b41-9e2c-594beb09237f",
+      "orderNumber": "ORD-984210",
+      "contactId": null,
+      "customerName": "Marcus Sterling",
+      "customerEmail": "marcus.s@apexglobal.com",
+      "funnelId": null,
+      "items": [
+        {
+          "name": "FunnelPro SaaS Growth Accelerator",
+          "price": 97,
+          "quantity": 1
+        }
+      ],
+      "orderBumpPurchased": true,
+      "orderBumpPrice": 27,
+      "upsellsPurchased": [],
+      "subtotal": 124,
+      "discount": 0,
+      "total": 124,
+      "currency": "USD",
+      "status": "completed",
+      "paymentProvider": "stripe",
+      "paymentId": "pi_test_3c910e2a-5913-4e",
+      "couponCode": "",
+      "billingDetails": {},
+      "isDemo": true,
+      "createdAt": "2026-11-07T19:50:18.920Z",
+      "updatedAt": "2026-11-07T19:50:18.920Z"
+    },
+    {
+      "_id": "aa607ccf-dcb0-4c5d-af75-f70237fe46c3",
+      "orderNumber": "ORD-984211",
+      "contactId": null,
+      "customerName": "David Chen",
+      "customerEmail": "david.chen@synergycapital.org",
+      "funnelId": null,
+      "items": [
+        {
+          "name": "High-Ticket Mastermind VIP Cohort",
+          "price": 997,
+          "quantity": 1
+        }
+      ],
+      "orderBumpPurchased": false,
+      "orderBumpPrice": 0,
+      "upsellsPurchased": [],
+      "subtotal": 997,
+      "discount": 0,
+      "total": 997,
+      "currency": "USD",
+      "status": "completed",
+      "paymentProvider": "stripe",
+      "paymentId": "pi_test_bc6191d1-7d5a-4f",
+      "couponCode": "",
+      "billingDetails": {},
+      "isDemo": true,
+      "createdAt": "2026-11-07T19:50:18.921Z",
+      "updatedAt": "2026-11-07T19:50:18.921Z"
+    },
+    {
+      "_id": "14fd1680-1d04-4e42-a1d5-7ad50b55706e",
+      "orderNumber": "ORD-984212",
+      "contactId": null,
+      "customerName": "Sarah Jenkins",
+      "customerEmail": "sarah.j@growthbrand.co",
+      "funnelId": null,
+      "items": [
+        {
+          "name": "FunnelPro SaaS Growth Accelerator",
+          "price": 97,
+          "quantity": 1
+        }
+      ],
+      "orderBumpPurchased": true,
+      "orderBumpPrice": 27,
+      "upsellsPurchased": [],
+      "subtotal": 124,
+      "discount": 0,
+      "total": 124,
+      "currency": "USD",
+      "status": "completed",
+      "paymentProvider": "stripe",
+      "paymentId": "pi_test_291c52a5-56aa-49",
+      "couponCode": "",
+      "billingDetails": {},
+      "isDemo": true,
+      "createdAt": "2026-11-07T19:50:18.921Z",
+      "updatedAt": "2026-11-07T19:50:18.921Z"
+    },
+    {
+      "_id": "1d66269b-586a-4336-8694-185a679b72b3",
+      "orderNumber": "ORD-984213",
+      "contactId": null,
+      "customerName": "Rachel Green",
+      "customerEmail": "rachel@zenfitcollective.com",
+      "funnelId": null,
+      "items": [
+        {
+          "name": "Apex Smart Fitness Tracker V3",
+          "price": 149,
+          "quantity": 1
+        }
+      ],
+      "orderBumpPurchased": true,
+      "orderBumpPrice": 19,
+      "upsellsPurchased": [],
+      "subtotal": 168,
+      "discount": 0,
+      "total": 168,
+      "currency": "USD",
+      "status": "completed",
+      "paymentProvider": "stripe",
+      "paymentId": "pi_test_975a8dff-b94b-4f",
+      "couponCode": "",
+      "billingDetails": {},
+      "isDemo": true,
+      "createdAt": "2026-11-07T19:50:18.922Z",
+      "updatedAt": "2026-11-07T19:50:18.922Z"
+    },
+    {
+      "_id": "cce29b57-1209-4020-82ac-49798cc638cd",
+      "orderNumber": "ORD-984214",
+      "contactId": null,
+      "customerName": "Sophia Alvarez",
+      "customerEmail": "sophia@luxuryliving.com",
+      "funnelId": null,
+      "items": [
+        {
+          "name": "FunnelPro SaaS Growth Accelerator",
+          "price": 97,
+          "quantity": 1
+        }
+      ],
+      "orderBumpPurchased": true,
+      "orderBumpPrice": 27,
+      "upsellsPurchased": [],
+      "subtotal": 124,
+      "discount": 0,
+      "total": 124,
+      "currency": "USD",
+      "status": "completed",
+      "paymentProvider": "stripe",
+      "paymentId": "pi_test_4a98f6c4-8ed4-4f",
+      "couponCode": "",
+      "billingDetails": {},
+      "isDemo": true,
+      "createdAt": "2026-11-07T19:50:18.923Z",
+      "updatedAt": "2026-11-07T19:50:18.923Z"
+    }
+  ],
+  "contacts": [
+    {
+      "_id": "fbcc17f9-811f-4e68-bae7-8c741a6bc50a",
+      "firstName": "Marcus",
+      "lastName": "Sterling",
+      "email": "marcus.s@apexglobal.com",
+      "phone": "+1 (555) 234-8891",
+      "tags": [
+        "customer",
+        "vip-buyer",
+        "saas"
+      ],
+      "source": "checkout",
+      "sourceFunnelId": null,
+      "sourceStepId": null,
+      "status": "customer",
+      "totalOrders": 2,
+      "totalSpent": 321,
+      "customFields": {},
+      "activityLog": [
+        {
+          "action": "Order Processed",
+          "details": "Activity logged via FunnelPro CRM engine",
+          "timestamp": "2026-11-02T00:57:48.368Z"
+        }
+      ],
+      "createdAt": "2026-11-07T19:50:18.904Z",
+      "updatedAt": "2026-11-07T19:50:18.904Z"
+    },
+    {
+      "_id": "a0349a03-be1f-4bb3-b024-4eecd5f2d38c",
+      "firstName": "Elena",
+      "lastName": "Rostova",
+      "email": "elena@novatech.io",
+      "phone": "+1 (555) 345-9920",
+      "tags": [
+        "lead",
+        "webinar-attendee"
+      ],
+      "source": "optin_form",
+      "sourceFunnelId": null,
+      "sourceStepId": null,
+      "status": "lead",
+      "totalOrders": 0,
+      "totalSpent": 0,
+      "customFields": {},
+      "activityLog": [
+        {
+          "action": "Opt-in Registered",
+          "details": "Activity logged via FunnelPro CRM engine",
+          "timestamp": "2026-10-30T17:44:14.571Z"
+        }
+      ],
+      "createdAt": "2026-11-07T19:50:18.904Z",
+      "updatedAt": "2026-11-07T19:50:18.904Z"
+    },
+    {
+      "_id": "c9aa2c6e-d915-4055-971c-ba3768e1f192",
+      "firstName": "David",
+      "lastName": "Chen",
+      "email": "david.chen@synergycapital.org",
+      "phone": "+1 (555) 872-4411",
+      "tags": [
+        "customer",
+        "mastermind"
+      ],
+      "source": "checkout",
+      "sourceFunnelId": null,
+      "sourceStepId": null,
+      "status": "customer",
+      "totalOrders": 1,
+      "totalSpent": 997,
+      "customFields": {},
+      "activityLog": [
+        {
+          "action": "Order Processed",
+          "details": "Activity logged via FunnelPro CRM engine",
+          "timestamp": "2026-11-06T02:27:29.481Z"
+        }
+      ],
+      "createdAt": "2026-11-07T19:50:18.905Z",
+      "updatedAt": "2026-11-07T19:50:18.905Z"
+    },
+    {
+      "_id": "ff47a691-de78-4796-9fb6-df520f0a6ed6",
+      "firstName": "Sarah",
+      "lastName": "Jenkins",
+      "email": "sarah.j@growthbrand.co",
+      "phone": "+1 (555) 910-3329",
+      "tags": [
+        "customer",
+        "order-bump-buyer"
+      ],
+      "source": "checkout",
+      "sourceFunnelId": null,
+      "sourceStepId": null,
+      "status": "customer",
+      "totalOrders": 1,
+      "totalSpent": 124,
+      "customFields": {},
+      "activityLog": [
+        {
+          "action": "Order Processed",
+          "details": "Activity logged via FunnelPro CRM engine",
+          "timestamp": "2026-11-04T01:45:20.391Z"
+        }
+      ],
+      "createdAt": "2026-11-07T19:50:18.906Z",
+      "updatedAt": "2026-11-07T19:50:18.906Z"
+    },
+    {
+      "_id": "eebe67ff-7fb6-4b47-b1b9-0ecd52679518",
+      "firstName": "Jonathan",
+      "lastName": "Miller",
+      "email": "jmiller@cloudscale.net",
+      "phone": "+1 (555) 123-7740",
+      "tags": [
+        "lead",
+        "free-guide"
+      ],
+      "source": "optin_form",
+      "sourceFunnelId": null,
+      "sourceStepId": null,
+      "status": "lead",
+      "totalOrders": 0,
+      "totalSpent": 0,
+      "customFields": {},
+      "activityLog": [
+        {
+          "action": "Opt-in Registered",
+          "details": "Activity logged via FunnelPro CRM engine",
+          "timestamp": "2026-10-28T10:49:01.302Z"
+        }
+      ],
+      "createdAt": "2026-11-07T19:50:18.906Z",
+      "updatedAt": "2026-11-07T19:50:18.906Z"
+    },
+    {
+      "_id": "0fb81b40-2f03-415d-96ef-6a1d91a929bf",
+      "firstName": "Rachel",
+      "lastName": "Green",
+      "email": "rachel@zenfitcollective.com",
+      "phone": "+1 (555) 654-2219",
+      "tags": [
+        "customer",
+        "fitness"
+      ],
+      "source": "checkout",
+      "sourceFunnelId": null,
+      "sourceStepId": null,
+      "status": "customer",
+      "totalOrders": 1,
+      "totalSpent": 168,
+      "customFields": {},
+      "activityLog": [
+        {
+          "action": "Order Processed",
+          "details": "Activity logged via FunnelPro CRM engine",
+          "timestamp": "2026-10-31T00:47:35.151Z"
+        }
+      ],
+      "createdAt": "2026-11-07T19:50:18.907Z",
+      "updatedAt": "2026-11-07T19:50:18.907Z"
+    },
+    {
+      "_id": "3798498b-efe6-4c97-8a0f-3a9542bfffff",
+      "firstName": "Carlos",
+      "lastName": "Mendoza",
+      "email": "carlos.m@horizonmedia.es",
+      "phone": "+34 612 345 678",
+      "tags": [
+        "lead",
+        "optin"
+      ],
+      "source": "optin_form",
+      "sourceFunnelId": null,
+      "sourceStepId": null,
+      "status": "lead",
+      "totalOrders": 0,
+      "totalSpent": 0,
+      "customFields": {},
+      "activityLog": [
+        {
+          "action": "Opt-in Registered",
+          "details": "Activity logged via FunnelPro CRM engine",
+          "timestamp": "2026-10-28T16:55:08.828Z"
+        }
+      ],
+      "createdAt": "2026-11-07T19:50:18.907Z",
+      "updatedAt": "2026-11-07T19:50:18.907Z"
+    },
+    {
+      "_id": "c762d15e-2dd1-43fc-bf6d-568bf50cfed5",
+      "firstName": "Sophia",
+      "lastName": "Alvarez",
+      "email": "sophia@luxuryliving.com",
+      "phone": "+1 (555) 789-0123",
+      "tags": [
+        "customer",
+        "upsell-buyer"
+      ],
+      "source": "checkout",
+      "sourceFunnelId": null,
+      "sourceStepId": null,
+      "status": "customer",
+      "totalOrders": 1,
+      "totalSpent": 343,
+      "customFields": {},
+      "activityLog": [
+        {
+          "action": "Order Processed",
+          "details": "Activity logged via FunnelPro CRM engine",
+          "timestamp": "2026-10-26T13:17:08.888Z"
+        }
+      ],
+      "createdAt": "2026-11-07T19:50:18.908Z",
+      "updatedAt": "2026-11-07T19:50:18.908Z"
+    }
+  ],
+  "coupons": [
+    {
+      "_id": "f0281c0d-056e-43c6-985f-85ad56f3045f",
+      "code": "LAUNCH20",
+      "discountType": "percentage",
+      "discountValue": 20,
+      "minPurchase": 50,
+      "maxUses": 500,
+      "usedCount": 38,
+      "expiresAt": null,
+      "isActive": true,
+      "createdAt": "2026-11-07T19:50:18.901Z",
+      "updatedAt": "2026-11-07T19:50:18.901Z"
+    },
+    {
+      "_id": "424d1f7c-08b5-465b-aeb7-3db0c158ae0e",
+      "code": "VIP50OFF",
+      "discountType": "percentage",
+      "discountValue": 50,
+      "minPurchase": 100,
+      "maxUses": 50,
+      "usedCount": 12,
+      "expiresAt": null,
+      "isActive": true,
+      "createdAt": "2026-11-07T19:50:18.902Z",
+      "updatedAt": "2026-11-07T19:50:18.902Z"
+    },
+    {
+      "_id": "2ed4842b-cdaf-4c5c-bc04-59e31196b688",
+      "code": "SAVE10",
+      "discountType": "fixed",
+      "discountValue": 10,
+      "minPurchase": 30,
+      "maxUses": 1000,
+      "usedCount": 84,
+      "expiresAt": null,
+      "isActive": true,
+      "createdAt": "2026-11-07T19:50:18.903Z",
+      "updatedAt": "2026-11-07T19:50:18.903Z"
+    }
+  ],
+  "emailCampaigns": [
+    {
+      "_id": "a6acbab7-878b-4118-abde-ffd4e7b816a7",
+      "title": "Black Friday 50% Off Early Access Blast",
+      "subject": "🔥 [VIP Exclusive] Unlock 50% Off All Annual Plans Today",
+      "senderName": "Alex Vance",
+      "senderEmail": "alex@funnelpro.io",
+      "previewText": "This exclusive discount expires in 48 hours...",
+      "content": "Hi {{first_name}},\n\nBecause you are a valued member of our community, we are unlocking early Black Friday access for you.\n\nClick below to claim your 50% lifetime coupon:\nhttps://funnelpro.io/bf-deal\n\nTo your success,\nAlex Vance",
+      "audienceFilter": {
+        "all": true,
+        "tags": []
+      },
+      "status": "sent",
+      "scheduledAt": null,
+      "sentAt": null,
+      "stats": {
+        "recipients": 1240,
+        "sent": 1240,
+        "opened": 682,
+        "clicked": 294,
+        "bounced": 6
+      },
+      "createdAt": "2026-11-07T19:50:18.925Z",
+      "updatedAt": "2026-11-07T19:50:18.925Z"
+    }
+  ],
+  "automations": [
+    {
+      "_id": "a417f349-e03b-4648-a170-892ed04040d8",
+      "name": "New Lead Nurture Sequence",
+      "description": "Delivers lead magnet PDF, tags contact, and initiates 3-day value sequence.",
+      "trigger": {
+        "type": "optin_submit",
+        "config": {
+          "funnelId": "all"
+        }
+      },
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "trigger",
+          "title": "Contact Submits Opt-in Form",
+          "subtitle": "Any active funnel",
+          "position": {
+            "x": 250,
+            "y": 40
+          }
+        },
+        {
+          "id": "n2",
+          "type": "action",
+          "title": "Add Tag \"lead-magnet-optin\"",
+          "subtitle": "CRM Tagging",
+          "position": {
+            "x": 250,
+            "y": 160
+          }
+        },
+        {
+          "id": "n3",
+          "type": "action",
+          "title": "Send Welcome Email with PDF",
+          "subtitle": "Immediate Dispatch",
+          "position": {
+            "x": 250,
+            "y": 280
+          }
+        },
+        {
+          "id": "n4",
+          "type": "delay",
+          "title": "Wait 24 Hours",
+          "subtitle": "Nurture Interval",
+          "position": {
+            "x": 250,
+            "y": 400
+          }
+        },
+        {
+          "id": "n5",
+          "type": "action",
+          "title": "Send Case Study Email",
+          "subtitle": "Social Proof",
+          "position": {
+            "x": 250,
+            "y": 520
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1-2",
+          "source": "n1",
+          "target": "n2"
+        },
+        {
+          "id": "e2-3",
+          "source": "n2",
+          "target": "n3"
+        },
+        {
+          "id": "e3-4",
+          "source": "n3",
+          "target": "n4"
+        },
+        {
+          "id": "e4-5",
+          "source": "n4",
+          "target": "n5"
+        }
+      ],
+      "status": "active",
+      "executionCount": 142,
+      "createdAt": "2026-11-07T19:50:18.924Z",
+      "updatedAt": "2026-11-07T19:50:18.924Z"
+    }
+  ],
+  "domains": [
+    {
+      "_id": "20b472ad-7685-48cb-b7c9-47163db00c02",
+      "domainName": "growthfunnels.com",
+      "subdomain": "app",
+      "status": "verified",
+      "verificationToken": "fp-token-884102",
+      "dnsRecords": [
+        {
+          "type": "CNAME",
+          "host": "@",
+          "value": "funnelpro-router.net",
+          "status": "valid"
+        },
+        {
+          "type": "TXT",
+          "host": "_verify",
+          "value": "fp-token-884102",
+          "status": "valid"
+        }
+      ],
+      "targetFunnelId": null,
+      "targetWebsiteId": null,
+      "sslStatus": "active",
+      "createdAt": "2026-11-07T19:50:18.926Z",
+      "updatedAt": "2026-11-07T19:50:18.926Z"
+    }
+  ],
+  "analyticsEvents": [],
+  "notifications": [
+    {
+      "_id": "0dce2d27-391f-42de-b678-b352d964e989",
+      "userId": null,
+      "title": "🚀 Funnel Published!",
+      "message": "\"SaaS 14-Day Growth Funnel\" is live and accepting visitors.",
+      "type": "system",
+      "isRead": true,
+      "link": "/funnels",
+      "createdAt": "2026-11-07T19:50:18.927Z",
+      "updatedAt": "2026-11-07T19:50:18.927Z"
+    },
+    {
+      "_id": "d7ae4179-6944-45b2-968c-5a70754cf720",
+      "userId": null,
+      "title": "💳 New Stripe Order ($124.00)",
+      "message": "Marcus Sterling purchased \"FunnelPro SaaS Growth Accelerator\" with Order Bump.",
+      "type": "order",
+      "isRead": false,
+      "link": "/orders",
+      "createdAt": "2026-11-07T19:50:18.928Z",
+      "updatedAt": "2026-11-07T19:50:18.928Z"
+    }
+  ],
+  "templates": [
+    {
+      "_id": "600322cc-4de2-4491-87c8-0c913c4fef2b",
+      "name": "SaaS Growth & Scale Funnel",
+      "category": "SaaS",
+      "description": "High-converting software landing page featuring interactive feature matrix, social proof, and trial sign-up CTA.",
+      "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&auto=format&fit=crop&q=80",
+      "type": "funnel",
+      "sections": [
+        {
+          "id": "7a849071-d402-4d51-b5ee-2a04c58d5f2e",
+          "name": "Hero Section",
+          "styles": {
+            "backgroundColor": "#0f172a",
+            "color": "#ffffff",
+            "padding": "80px 20px",
+            "textAlign": "center"
+          },
+          "rows": [
+            {
+              "id": "55670510-e53d-47ae-82c0-f0b5ab1b0d03",
+              "columns": [
+                {
+                  "id": "2e963cb8-48c4-4f43-b5c7-b3f2b2dd5d56",
+                  "width": "100%",
+                  "elements": [
+                    {
+                      "id": "0745424b-df70-470d-a966-eecc70518112",
+                      "type": "badge",
+                      "content": {
+                        "text": "🚀 V2.0 LAUNCH SPECIAL",
+                        "color": "#818cf8",
+                        "bgColor": "#1e1b4b"
+                      }
+                    },
+                    {
+                      "id": "f2f94dc3-65a4-424f-a0cb-626386f05c51",
+                      "type": "heading",
+                      "content": {
+                        "text": "Supercharge Your Customer Acquisition Pipeline",
+                        "level": "h1"
+                      },
+                      "styles": {
+                        "fontSize": "44px",
+                        "fontWeight": "800",
+                        "color": "#ffffff",
+                        "margin": "20px auto"
+                      }
+                    },
+                    {
+                      "id": "3eddd569-4c60-4f3c-a143-2c661b06d8b3",
+                      "type": "paragraph",
+                      "content": {
+                        "text": "Stop losing 70% of your visitors. FunnelPro empowers modern growth teams to build high-converting funnels in minutes."
+                      },
+                      "styles": {
+                        "fontSize": "18px",
+                        "color": "#94a3b8",
+                        "maxWidth": "640px",
+                        "margin": "0 auto 30px auto"
+                      }
+                    },
+                    {
+                      "id": "b953da3f-7040-4023-ba4d-e163ab5346ed",
+                      "type": "form",
+                      "content": {
+                        "buttonText": "Start Your 14-Day Free Trial",
+                        "fields": [
+                          {
+                            "name": "name",
+                            "type": "text",
+                            "placeholder": "Work Email"
+                          }
+                        ]
+                      },
+                      "styles": {
+                        "maxWidth": "440px",
+                        "margin": "0 auto"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "SaaS",
+        "B2B",
+        "Free Trial",
+        "High-Converting"
+      ],
+      "createdAt": "2026-11-07T20:02:48.881Z",
+      "updatedAt": "2026-11-07T20:02:48.881Z"
+    },
+    {
+      "_id": "fbf88b34-4ae7-49f1-9372-63486af27e53",
+      "name": "High-Ticket Coaching & Mastermind",
+      "category": "Coaching",
+      "description": "Direct-response sales letter with video placeholder, testimonial grid, and qualifying application booking form.",
+      "thumbnail": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&auto=format&fit=crop&q=80",
+      "type": "funnel",
+      "sections": [],
+      "tags": [
+        "Coaching",
+        "High-Ticket",
+        "Application",
+        "Mentorship"
+      ],
+      "createdAt": "2026-11-07T20:02:48.881Z",
+      "updatedAt": "2026-11-07T20:02:48.881Z"
+    },
+    {
+      "_id": "4e133b47-7acf-4888-a6a9-f57aaab0d112",
+      "name": "E-commerce DTC Product Launch",
+      "category": "E-commerce",
+      "description": "Optimized product showcase with scarcity countdown timer, order bump box, and Stripe 1-page checkout.",
+      "thumbnail": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&auto=format&fit=crop&q=80",
+      "type": "funnel",
+      "sections": [],
+      "tags": [
+        "E-commerce",
+        "Order Bump",
+        "Physical Product",
+        "Sales Page"
+      ],
+      "createdAt": "2026-11-07T20:02:48.881Z",
+      "updatedAt": "2026-11-07T20:02:48.881Z"
+    },
+    {
+      "_id": "c53f4bcb-1207-493e-9ece-1c1d584bcf9c",
+      "name": "Live Webinar Registration Funnel",
+      "category": "Webinar",
+      "description": "2-step webinar registration with urgency timer, speaker credentials, and automated calendar invite download.",
+      "thumbnail": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=600&auto=format&fit=crop&q=80",
+      "type": "funnel",
+      "sections": [],
+      "tags": [
+        "Webinar",
+        "Lead Generation",
+        "Urgency Timer",
+        "Workshop"
+      ],
+      "createdAt": "2026-11-07T20:02:48.881Z",
+      "updatedAt": "2026-11-07T20:02:48.881Z"
+    },
+    {
+      "_id": "5bccf01d-3507-4352-a699-08fa89ee5668",
+      "name": "Digital Course & E-Book Bundle",
+      "category": "Digital Products",
+      "description": "Course curriculum breakdown, 3D mockup cards, customer reviews, and post-purchase VIP upsell flow.",
+      "thumbnail": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&auto=format&fit=crop&q=80",
+      "type": "funnel",
+      "sections": [],
+      "tags": [
+        "Course",
+        "E-Book",
+        "Digital Product",
+        "Upsell"
+      ],
+      "createdAt": "2026-11-07T20:02:48.881Z",
+      "updatedAt": "2026-11-07T20:02:48.881Z"
+    },
+    {
+      "_id": "96a564a6-51a5-4b79-904e-bbac0bb240ec",
+      "name": "Fitness & Transformation Bootcamp",
+      "category": "Fitness",
+      "description": "Dynamic fitness challenge opt-in with before/after gallery, meal plan overview, and community sign-up.",
+      "thumbnail": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&auto=format&fit=crop&q=80",
+      "type": "funnel",
+      "sections": [],
+      "tags": [
+        "Fitness",
+        "Challenge",
+        "Health",
+        "Subscription"
+      ],
+      "createdAt": "2026-11-07T20:02:48.881Z",
+      "updatedAt": "2026-11-07T20:02:48.881Z"
+    },
+    {
+      "_id": "125f3587-6771-4d5e-b688-ff37479e464a",
+      "name": "Luxury Real Estate Listing Showcase",
+      "category": "Real Estate",
+      "description": "Immersive property tour page, neighborhood highlights, virtual walk-through video, and private viewing scheduler.",
+      "thumbnail": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&auto=format&fit=crop&q=80",
+      "type": "funnel",
+      "sections": [],
+      "tags": [
+        "Real Estate",
+        "Luxury",
+        "Lead Capture",
+        "Broker"
+      ],
+      "createdAt": "2026-11-07T20:02:48.881Z",
+      "updatedAt": "2026-11-07T20:02:48.881Z"
+    },
+    {
+      "_id": "fd20e175-579d-4efc-9f78-bc377dd27856",
+      "name": "Gourmet Restaurant & Event Booking",
+      "category": "Restaurant",
+      "description": "Mouthwatering menu spotlight, chef accolades, VIP reservation table booking, and gift card upsell.",
+      "thumbnail": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&auto=format&fit=crop&q=80",
+      "type": "funnel",
+      "sections": [],
+      "tags": [
+        "Restaurant",
+        "Dining",
+        "Hospitality",
+        "Catering"
+      ],
+      "createdAt": "2026-11-07T20:02:48.881Z",
+      "updatedAt": "2026-11-07T20:02:48.881Z"
+    },
+    {
+      "_id": "25c9e13a-1d4b-42e2-86f8-0a1bef049bd3",
+      "name": "Medical & Healthcare Practice Funnel",
+      "category": "Healthcare",
+      "description": "HIPAA-compliant consultation request, doctor credentials, patient success stories, and clinic locator.",
+      "thumbnail": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=600&auto=format&fit=crop&q=80",
+      "type": "funnel",
+      "sections": [],
+      "tags": [
+        "Healthcare",
+        "Clinic",
+        "Consultation",
+        "Dental"
+      ],
+      "createdAt": "2026-11-07T20:02:48.881Z",
+      "updatedAt": "2026-11-07T20:02:48.881Z"
+    },
+    {
+      "_id": "e204d59c-3455-486e-a275-4357eea28f86",
+      "name": "B2B Creative Agency Client Magnet",
+      "category": "Agency",
+      "description": "Portfolio case studies, metrics achieved, client logos, and high-ticket discovery call booking form.",
+      "thumbnail": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&auto=format&fit=crop&q=80",
+      "type": "funnel",
+      "sections": [],
+      "tags": [
+        "Agency",
+        "Portfolio",
+        "B2B",
+        "Design"
+      ],
+      "createdAt": "2026-11-07T20:02:48.881Z",
+      "updatedAt": "2026-11-07T20:02:48.881Z"
+    },
+    {
+      "_id": "b81acc47-4d5f-4362-b892-be89ddb739f9",
+      "name": "Ultimate Lead Magnet & Cheat Sheet",
+      "category": "Lead Generation",
+      "description": "Ultra-clean single column opt-in with bullet point benefits and instant PDF download delivery.",
+      "thumbnail": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=80",
+      "type": "funnel",
+      "sections": [],
+      "tags": [
+        "Lead Magnet",
+        "Free Guide",
+        "Opt-in",
+        "List Building"
+      ],
+      "createdAt": "2026-11-07T20:02:48.881Z",
+      "updatedAt": "2026-11-07T20:02:48.881Z"
+    },
+    {
+      "_id": "be7077d0-b890-49ec-90ec-7d0949daa899",
+      "name": "Corporate Business Advisory",
+      "category": "Business",
+      "description": "Executive strategy advisory page with ROI calculator preview, white paper download, and stakeholder deck.",
+      "thumbnail": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&auto=format&fit=crop&q=80",
+      "type": "funnel",
+      "sections": [],
+      "tags": [
+        "Business",
+        "Corporate",
+        "Enterprise",
+        "Strategy"
+      ],
+      "createdAt": "2026-11-07T20:02:48.881Z",
+      "updatedAt": "2026-11-07T20:02:48.881Z"
+    }
+  ],
+  "integrations": [
+    {
+      "_id": "07c73f8f-9124-4f4c-8615-6376b84e6b9f",
+      "provider": "stripe",
+      "name": "Stripe Payments",
+      "credentials": {
+        "publishableKey": "pk_test_demo...",
+        "secretKey": "sk_test_demo..."
+      },
+      "status": "connected",
+      "lastCheckedAt": null,
+      "category": "Payment Gateways",
+      "description": "Accept credit card payments, order bumps, one-click upsells and subscriptions.",
+      "icon": "credit-card",
+      "createdAt": "2026-11-07T20:03:19.829Z",
+      "updatedAt": "2026-11-07T20:03:19.829Z"
+    },
+    {
+      "_id": "98bef3ad-3660-4f48-9bb3-611ac9304d3f",
+      "provider": "paypal",
+      "name": "PayPal Checkout",
+      "credentials": {
+        "clientId": "",
+        "secret": ""
+      },
+      "status": "disconnected",
+      "lastCheckedAt": null,
+      "category": "Payment Gateways",
+      "description": "Allow customers to check out seamlessly with PayPal balance or debit/credit.",
+      "icon": "wallet",
+      "createdAt": "2026-11-07T20:03:19.829Z",
+      "updatedAt": "2026-11-07T20:03:19.829Z"
+    },
+    {
+      "_id": "1a364a25-bd42-4be0-b500-7a47d9e4115d",
+      "provider": "mailchimp",
+      "name": "Mailchimp Sync",
+      "credentials": {
+        "apiKey": "",
+        "serverPrefix": "",
+        "listId": ""
+      },
+      "status": "disconnected",
+      "lastCheckedAt": null,
+      "category": "Email Marketing",
+      "description": "Automatically sync opt-in leads and buyers directly into Mailchimp lists.",
+      "icon": "mail",
+      "createdAt": "2026-11-07T20:03:19.829Z",
+      "updatedAt": "2026-11-07T20:03:19.829Z"
+    },
+    {
+      "_id": "a6e2653b-fb75-4ccf-93df-048715e97774",
+      "provider": "google_analytics",
+      "name": "Google Analytics 4",
+      "credentials": {
+        "measurementId": "G-FP8849201"
+      },
+      "status": "connected",
+      "lastCheckedAt": null,
+      "category": "Analytics & Tracking",
+      "description": "Track real-time page views, scroll depth, and e-commerce conversions.",
+      "icon": "activity",
+      "createdAt": "2026-11-07T20:03:19.829Z",
+      "updatedAt": "2026-11-07T20:03:19.829Z"
+    },
+    {
+      "_id": "578e8c32-88fe-44d6-9a2a-a980b0272509",
+      "provider": "facebook_pixel",
+      "name": "Meta / Facebook Pixel",
+      "credentials": {
+        "pixelId": ""
+      },
+      "status": "disconnected",
+      "lastCheckedAt": null,
+      "category": "Analytics & Tracking",
+      "description": "Track Lead and Purchase events to optimize Facebook and Instagram ad campaigns.",
+      "icon": "tag",
+      "createdAt": "2026-11-07T20:03:19.829Z",
+      "updatedAt": "2026-11-07T20:03:19.829Z"
+    },
+    {
+      "_id": "faed7e66-f15d-4f68-917a-1ea803fa7a82",
+      "provider": "smtp",
+      "name": "Custom SMTP Server",
+      "credentials": {
+        "host": "smtp.mailtrap.io",
+        "port": 2525,
+        "user": "demo-user"
+      },
+      "status": "connected",
+      "lastCheckedAt": null,
+      "category": "Email Delivery",
+      "description": "Send transactional emails, order receipts, and marketing broadcasts via SMTP.",
+      "icon": "send",
+      "createdAt": "2026-11-07T20:03:19.829Z",
+      "updatedAt": "2026-11-07T20:03:19.829Z"
+    },
+    {
+      "_id": "fe0a7dbf-71b8-4d28-bef5-c765db7755b9",
+      "provider": "webhook",
+      "name": "Outgoing Webhooks",
+      "credentials": {
+        "webhookUrl": "",
+        "secretKey": ""
+      },
+      "status": "disconnected",
+      "lastCheckedAt": null,
+      "category": "Developer Tools",
+      "description": "Send HTTP POST payloads to Zapier, Make, or custom API endpoints on triggers.",
+      "icon": "zap",
+      "createdAt": "2026-11-07T20:03:19.829Z",
+      "updatedAt": "2026-11-07T20:03:19.829Z"
+    }
+  ]
+}
